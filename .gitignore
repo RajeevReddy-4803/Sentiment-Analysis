@@ -1,0 +1,28 @@
+# Ignore temp, system, and heavy files
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+.env
+*.zip
+*.tar.gz
+*.sqlite
+venv/
+.venv/
+# Ignore generated datasets and model artifacts
+*.csv
+*.pkl
+*.png
+*.pdf
+*.jpg
+*.jpeg
+# Except for key code, notebook & markdown docs
+!data_handling/*.py
+!reports/insights.ipynb
+!src/*.py
+!summarization/*.py
+!models/*.py
+!README.md
+!.gitignore
+!requirements.txt
